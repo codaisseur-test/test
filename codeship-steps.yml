@@ -3,3 +3,4 @@
   name: push_image_to_dockerhub
   image_name: bramkoot/testtest
   registry: https://index.docker.io/v1/
+  encrypted_dockercfg_path: dockercfg.encrypted
