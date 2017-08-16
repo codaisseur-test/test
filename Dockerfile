@@ -9,7 +9,7 @@ COPY yarn.lock .
 RUN yarn install
 
 # Bundle app source
-COPY src/ .
+COPY . .
 
 EXPOSE 1234
 CMD [ "node", "." ]
