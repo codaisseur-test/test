@@ -1,3 +1,7 @@
+- name: integration_test
+  service: app
+  command: yarn test
+
 - type: push
   service: app
   name: push_image_to_dockerhub

@@ -2,7 +2,13 @@
   "name": "applepie",
   "version": "1.0.0",
   "main": "src/index.js",
+  "scripts": {
+    "test": "node node_modules/.bin/mocha src/test"
+  },
   "dependencies": {
-    "express": "^4.15.4"
+    "chai": "^4.1.1",
+    "express": "^4.15.4",
+    "mocha": "^3.5.0",
+    "request": "^2.81.0"
   }
 }
