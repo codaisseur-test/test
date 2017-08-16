@@ -1,2 +1,4 @@
 app:
-  build: .
+  build: 
+    image: bramkoot/testtest
+    dockerfile_path: Dockerfile
