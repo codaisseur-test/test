@@ -1,0 +1,5 @@
+type: push
+service: app
+name: push_image_to_dockerhub
+image_name: bramkoot/testtest
+registry: https://index.docker.io/v1/
