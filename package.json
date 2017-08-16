@@ -1,0 +1,8 @@
+{
+  "name": "applepie",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
