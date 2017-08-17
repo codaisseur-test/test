@@ -10,7 +10,7 @@ describe('Main service', function () {
 			request('http://localhost:1234/quote', function (error, response, body) {
 				expect(response.statusCode).to.eq(200);
 				done();
-			})
+			}) 
 		})
 		
 		it('should return 404 Not Found on /nonexistingurl', function (done) {
